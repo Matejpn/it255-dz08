@@ -1,0 +1,157 @@
+.navbar {
+    width: 100%;
+    height: 100%;
+    .container {
+        .navbar-brand {
+            padding-left: 100px;
+        }
+        .collapse {
+            .navbar-nav {
+                padding-left: 150px;
+                .nav-item {
+                    text-align: center;
+                    padding: 5px;
+                    font-size: 22px;
+                }
+                h4 {
+                    float: left;
+                }
+            }
+        }
+        .nav-login {
+            float: right;
+            padding-left: 50px;
+            ul {
+                list-style-type: none;
+                float: left;
+            }
+            form {
+                float: left;
+                input {
+                    float: left;
+                    width: 150px;
+                    height: 30px;
+                    padding: 0px 10px;
+                    margin-right: 10px;
+                    border: none;
+                    line-height: 30px;
+                }
+                button:hover {
+                    background-color: #ccc;
+                }
+            }
+            a {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+.main-wrapper {
+    h2 {
+        text-align: center;
+        font-family: arial;
+        line-height: 50px;
+    }
+}
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    margin-left: 770px;
+    input {
+        width: 90%;
+        height: 40px;
+        padding-top: 0px;
+        background-color: #fff;
+        font-size: 16px;
+        line-height: 40px;
+        margin-bottom: 4px;
+    }
+    button {
+        display: block;
+        width: 30%;
+        height: 40px;
+        font-family: arial;
+        cursor: pointer;
+        margin-left: 120px;
+    }
+}
+
+.slika {
+    width: 100%;
+    img {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.row {
+    padding-top: 30px;
+    padding-left: 25px;
+    width: 100%;
+    .thumbnail {
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding-bottom: 5px;
+        img {
+            margin-top: 10px;
+        }
+    }
+}
+
+#lokacija {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 45px;
+    h1 {
+        text-align: center;
+    }
+    #map {
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 95%;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+
+footer {
+    border-top: 1px solid gray;
+    .mt-2 {
+        a {
+            font-size: 2.5em;
+        }
+    }
+}
+
+.card-group {
+    padding-top: 20px;
+    img {
+        height: 300px;
+        width: 470px;
+    }
+}
+
+.paralia-bg {
+    background-color: lightblue;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    height: 300px;
+    width: 400px;
+    img {
+        float: left;
+        padding: 5px;
+    }
+}
+
+.card-deck {
+    padding-top: 30px;
+}
